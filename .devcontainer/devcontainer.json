@@ -14,6 +14,9 @@
     }
   },
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "containerEnv": {
+    "SHELL": "/bin/bash"
+  },
   "features": {
     "ghcr.io/devcontainers/features/nix:latest": {
       "version": "latest",
@@ -69,5 +72,5 @@
   ],
   "overrideCommand": true,
   "updateContentCommand": "command -v devenv && devenv test || true",
-  "postCreateCommand": "src/bin/rsdk setup && make devcontainer_setup"
+  "postCreateCommand": "bash .devcontainer/fix-apt.sh && src/bin/rsdk setup && make devcontainer_setup"
 }

@@ -1,0 +1,13 @@
+#!/bin/bash
+sudo rm -f /etc/apt/sources.list.d/ubuntu.sources
+sudo tee /etc/apt/sources.list > /dev/null << 'EOF'
+deb [arch=amd64] http://archive.ubuntu.com/ubuntu noble main restricted universe multiverse
+deb [arch=amd64] http://archive.ubuntu.com/ubuntu noble-updates main restricted universe multiverse
+deb [arch=amd64] http://archive.ubuntu.com/ubuntu noble-backports main restricted universe multiverse
+deb [arch=amd64] http://security.ubuntu.com/ubuntu noble-security main restricted universe multiverse
+deb [arch=arm64,riscv64] http://ports.ubuntu.com/ubuntu-ports noble main restricted universe multiverse
+deb [arch=arm64,riscv64] http://ports.ubuntu.com/ubuntu-ports noble-updates main restricted universe multiverse
+deb [arch=arm64,riscv64] http://ports.ubuntu.com/ubuntu-ports noble-backports main restricted universe multiverse
+deb [arch=arm64,riscv64] http://ports.ubuntu.com/ubuntu-ports noble-security main restricted universe multiverse
+EOF
+sudo apt-get update

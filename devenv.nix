@@ -35,6 +35,11 @@
   enterShell = ''
     export PATH=$PWD/src/bin:$PWD/node_modules/.bin:$HOME/.cargo/bin:$PATH
 
+    # Initialize starship if in interactive shell
+    if [[ $- == *i* ]] && command -v starship > /dev/null; then
+      eval "$(starship init bash)"
+    fi
+
     if [[ -n "$DEVENV_NIX" ]]
     then
       # Does not work from direnv
