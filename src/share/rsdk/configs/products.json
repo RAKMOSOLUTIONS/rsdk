@@ -4,7 +4,7 @@
         "product_name": "ROCK 5B",
         "product_full_name": "ROCK 5B",
         "soc": "rk3588",
-        "supported_suite": ["bookworm"],
+        "supported_suite": ["trixie"],
         "supported_edition": ["cli"]
     }
 ]

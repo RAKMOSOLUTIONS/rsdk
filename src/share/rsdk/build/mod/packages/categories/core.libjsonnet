@@ -61,7 +61,7 @@ else
         ]
 ) +
 
-(if suite == "bookworm"
+(if suite == "bookworm" || suite == "trixie"
 then
         [
             "efibootmgr",

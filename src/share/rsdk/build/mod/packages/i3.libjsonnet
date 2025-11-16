@@ -24,7 +24,7 @@ function(suite,
             "xserver-xorg-input-libinput",
         ] +
 
-(if suite == "bookworm"
+(if suite == "bookworm" || suite == "trixie"
 then
         // Install Debian 12 packages
         [

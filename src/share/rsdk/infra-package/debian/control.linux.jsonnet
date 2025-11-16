@@ -5,8 +5,8 @@ function(
     Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
     Section: admin
     Priority: standard
-    Standards-Version: 4.6.0
-    Build-Depends: debhelper (>=12~),
+    Standards-Version: 4.7.2
+    Build-Depends: debhelper (>=13~),
                    devscripts,
                    lintian,
                    dh-exec,
