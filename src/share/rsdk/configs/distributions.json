@@ -11,6 +11,7 @@
         "supported_suites": [
             "bullseye",
             "bookworm",
+            "trixie",
             "sid"
         ]
     },

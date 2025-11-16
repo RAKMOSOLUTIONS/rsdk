@@ -18,6 +18,7 @@
         "firmware_type": "u-boot",
         "soc_install_recommends": [
             "bookworm",
+            "trixie",
             "bullseye"
         ],
         "soc_list": [

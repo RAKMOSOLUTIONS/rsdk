@@ -72,6 +72,9 @@ Remap-rbuild-bookworm: /rbuild-bookworm ; http://radxa-repo.github.io/bookworm
 Remap-rbuild-bookworm-test: /rbuild-bookworm-test ; http://radxa-repo.github.io/bookworm-test
 Remap-rbuild-rk3588-bookworm-test: /rbuild-rk3588-bookworm-test ; http://radxa-repo.github.io/rk3588-bookworm-test
 Remap-rbuild-rk3588s2-bookworm-test: /rbuild-rk3588s2-bookworm-test ; http://radxa-repo.github.io/rk3588s2-bookworm-test
+Remap-rbuild-trixie: /rbuild-trixie ; http://radxa-repo.github.io/bookworm
+Remap-rbuild-trixie-test: /rbuild-trixie-test ; http://radxa-repo.github.io/bookworm-test
+Remap-rbuild-rk3588-trixie-test: /rbuild-rk3588-trixie-test ; http://radxa-repo.github.io/rk3588-bookworm-test
 Remap-rbuild-sid: /rbuild-sid ; http://radxa-repo.github.io/sid
 Remap-rbuild-sid-test: /rbuild-sid-test ; http://radxa-repo.github.io/sid-test
 Remap-rbuild-noble-test: /rbuild-noble-test ; http://radxa-repo.github.io/noble-test
